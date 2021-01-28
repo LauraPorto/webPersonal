@@ -18,7 +18,7 @@ Esta página web está diseñada bajo la técnica de Responsive Design, con un c
 ## Licencia :page_with_curl:
 MIT License
 
-## Autores :fountaine_pen:
+## Autores :fountain_pen:
 Laura Porto Castro
 
 ¡GRACIAS!

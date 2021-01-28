@@ -1,0 +1,54 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/229/835/non_2x/waves-crash-shore-free-photo.jpeg);
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0em;
+}
+
+.contenedorGeneral {
+    display: flex;
+    flex-direction: column;
+    
+}
+header {
+    width: 100%;
+    height: 10em;
+
+    background-color: brown;
+
+    display: flex;
+    justify-content: space-around;
+}
+.div1 {
+    height: 10em;
+    width: 15em;
+
+    background-color: cadetblue;
+}
+.div2 {
+    height: 10em;
+    width: 15em;
+
+    background-color: blue;
+}
+.div3 {
+    height: 10em;
+    width: 15em;
+
+    background-color: blueviolet;
+}
+.portada {
+    display: flex;
+    justify-content: center;
+  
+}
+
+/* 
+filtres: grayscale en media queries
+enlace Linkedin: https://www.linkedin.com/in/laura-porto-castro-869b2b192/
+enlace GitHub: https://github.com/LauraPorto
+enlace GitHub Pages (proyecto videoconsola): https://lauraporto.github.io/videoconsolaPortatil/
+*/
+
