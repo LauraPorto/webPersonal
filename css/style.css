@@ -1,7 +1,7 @@
 body {
     background-image: url(https://static.vecteezy.com/system/resources/previews/001/229/835/non_2x/waves-crash-shore-free-photo.jpeg);
     background-size: cover;
-    background-position:bottom;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0em;
@@ -10,13 +10,16 @@ body {
 .contenedorGeneral {
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 header {
-    width: 100%;
-    height: 10em;
+    width: 80%;
+    height: 13em;
 
-    background-color: brown;
+    background-color: transparent;
+    border: groove indigo;
+    border-top: none;
 
     display: flex;
     justify-content: space-around;
@@ -25,25 +28,42 @@ header {
     height: 10em;
     width: 15em;
 
-    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+
+    background: url(https://cdn2.iconfinder.com/data/icons/picol-vector/32/view-512.png);
+    background-size: 10em 10em;
+    background-repeat: no-repeat;
 }
 .div2 {
     height: 10em;
     width: 15em;
 
-    background-color: blue;
+    background-image: url(https://image.flaticon.com/icons/png/512/1087/1087927.png);
+    background-size: 10em 10em;
+    background-repeat: no-repeat;
 }
 .div3 {
     height: 10em;
     width: 15em;
 
-    background-color: blueviolet;
+    background-image: url(https://static.thenounproject.com/png/34-200.png);
+    background-size: 10em 10em;
+    background-repeat: no-repeat;
 }
 .portada {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
   
 }
+.insidePortada {
+    margin-top: 14em;
+}
+
+
 
 /* 
 filtres: grayscale en media queries

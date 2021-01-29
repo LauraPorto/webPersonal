@@ -8,11 +8,9 @@ Se presenta el proyecto para Geekshubs Academy de Web Personal.
 Para la realización de este proyecto se ha usado el lenguaje HTML5 para su estructura. Además, también se ha usado el lenguaje CSS3 para su diseño, y basado en la metodología CSS3 Layout.  
 Esta página web está diseñada bajo la técnica de Responsive Design, con un contenido adaptable a todos las diferentes plataformas tecnológicas (móvil, tablet y ordenador). 
  
-## Instalación 
+## Demo :dart:
 
-## Demo
-
-## Guías y referencias
+## Guías y referencias :notebook_with_decorative_cover:
 
 
 ## Licencia :page_with_curl:
