@@ -75,3 +75,24 @@ img:hover {
     font-weight: bold;
     color: #1b180dee;
 }
+
+@media screen and (max-width: 600px) {
+    .contenedorArriba {
+        height: 100%;
+        border: none;
+    }
+    .divArriba {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    img {
+        margin: 3em; 
+    }
+    .portada {
+        align-items: center;
+        justify-content: center;
+        margin-left: 2em;
+    }
+}

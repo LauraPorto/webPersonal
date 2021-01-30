@@ -55,3 +55,25 @@ img {
 p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media screen and (max-width: 850px) {
+    .tecnologias {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div2 {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #titulo {
+        color: #221902;
+    }
+}
+
