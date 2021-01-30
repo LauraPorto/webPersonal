@@ -5,46 +5,39 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0em;
-
-    height: 40em;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.contacto {
-    height: 35em;
-    width: 28em;
+.div2 {
+    height: 15em;
+    width: 60em;
     background-color: #9c8953;
     opacity: 0.8;
     border-radius: 2em;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-#enviar {
-    margin-inline: 10em;
-}
-p {
-    font-size: 1.3em;
-}
-
 img {
-    height: 3em;
-    width: 3em;
+    height: 5em;
+    width: 5em;
+}
 
-    margin: 1em;
+.tecnologias {
+    height: 20em;
+    width: 60em;
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedorGeneral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }

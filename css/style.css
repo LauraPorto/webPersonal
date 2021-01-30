@@ -15,12 +15,13 @@ body {
 } 
 
 .contenedorArriba {
-    width: 80%;
-    height: 20em;
+    width: 50em;
+    height: 15em;
 
     background-color: transparent;
     border: groove indigo;
     border-top: none;
+    
 
     display: flex;
     flex-direction: column;
@@ -50,22 +51,11 @@ body {
 .link1 {
     width: 100%;
     font-size: 3em;
-}
-
-.div1 {
-    height: 10em;
-    width: 15em;
-
-    background: url(https://cdn2.iconfinder.com/data/icons/picol-vector/32/view-512.png);
-    background-size: 10em 10em;
-    background-repeat: no-repeat;
-
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: flex-end;
+    margin: 2em;
+    
 
 }
+
 .div2 {
     height: 10em;
     width: 15em;
@@ -96,18 +86,7 @@ body {
 }
 
 p {
-    font-size: 10em;
+    font-size: 7em;
   
 }
-
-
-
-
-
-/* 
-filtres: grayscale en media queries
-enlace Linkedin: https://www.linkedin.com/in/laura-porto-castro-869b2b192/
-enlace GitHub: https://github.com/LauraPorto
-enlace GitHub Pages (proyecto videoconsola): https://lauraporto.github.io/videoconsolaPortatil/
-*/
 
