@@ -19,22 +19,13 @@ body {
     height: 15em;
 
     background-color: transparent;
-    border: groove indigo;
+    border: groove;
+    border-color: #81631177;
     border-top: none;
     
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.divAbajo {
-    height: 4em;
-    width: 100%;
-    
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -48,45 +39,39 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
 .link1 {
     width: 100%;
     font-size: 3em;
     margin: 2em;
     
-
 }
-
-.div2 {
+img {
     height: 10em;
-    width: 15em;
-
-    background-image: url(https://image.flaticon.com/icons/png/512/1087/1087927.png);
-    background-size: 10em 10em;
-    background-repeat: no-repeat;
+    width: 13em;
 }
-.div3 {
-    height: 10em;
-    width: 15em;
 
-    background-image: url(https://static.thenounproject.com/png/34-200.png);
-    background-size: 10em 10em;
-    background-repeat: no-repeat;
+img:hover {
+    height: 12em;
+    width: 15em;
 }
+
 
 .portada {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 
-    margin-top: 10em;
+    margin-top: 5em;
 
     height: 20em;
     width: 100%;
   
 }
 
-p {
-    font-size: 7em;
-  
+#nombre {
+    font-size: 6.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', monospace;
+    font-weight: bold;
+    color: #1b180dee;
 }
-

@@ -19,10 +19,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+
 }
 
-.contacto {
-    height: 35em;
+#contacto {
+    height: 38em;
     width: 28em;
     background-color: #9c8953;
     opacity: 0.8;
@@ -32,19 +34,32 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
 }
 
 #enviar {
     margin-inline: 10em;
 }
 p {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 img {
     height: 3em;
     width: 3em;
+}
 
-    margin: 1em;
+button {
+    margin-bottom: 1em;
+}
 
+.contactame {
+    font-size: 1.5em;
+    color: #866a1c;
+}
+
+img:hover {
+    height: 4em;
+    width: 4em;
 }

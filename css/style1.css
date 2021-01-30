@@ -24,9 +24,13 @@ img {
     height: 5em;
     width: 5em;
 }
+.imagen:hover {
+    height: 6em;
+    width: 6em;
+}
 
 .tecnologias {
-    height: 20em;
+    height: 15em;
     width: 60em;
 
     display: flex;
@@ -40,4 +44,14 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+#titulo {
+    font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: #866a1c;
+}
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
