@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link href="css/style3.css" rel="stylesheet">
+
 </head>
 <body>
-    <div class="contact_form">
+    <div class="contacto">
 
-        <form action="submeter-formulario.php" method="post">       
+        <form action="formulario" method="post">       
 
-            <label for="nombre" class="colocar_nombre">Nombre
-                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            <label for="nombre" class="form1"><p>Nombre</p>
+                <input type="text" name="introducir_nombre" >
             </label>
-
-            <label for="email" class="colocar_email">Email
-                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">      
+        </br></br> 
+            <label for="email" class="form1"><p>Email</p>
+                <input type="email" name="introducir_email">      
             </label>
-                        
-            <label for="telefone" class="colocar_telefono">Teléfono
-                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+        </br></br>                 
+            <label for="telefone" class="form1"><p>Teléfono</p>
+                <input type="tel" name="introducir_telefono">
             </label>
-                        
-            <label for="mensaje" class="colocar_mensaje">Mensaje
-                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+        </br></br>            
+            <label for="mensaje" class="form1"><p>Mensaje</p>
+                <textarea name="introducir_mensaje" class="texto_mensaje" placeholder="Deja aquí tu comentario..."></textarea> 
             </label>                     
-                                        
+        </br><br>    
+            <button type="submit" class="form1" name="enviar_formulario" id="enviar">
+                <p>Enviar</p>
+            </button>                               
 
-                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
         </form>
 
     </div>

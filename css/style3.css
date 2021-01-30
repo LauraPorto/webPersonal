@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/229/835/non_2x/waves-crash-shore-free-photo.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0em;
+
+    height: 40em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto {
+    height: 30em;
+    width: 20em;
+    background-color: #9c8953;
+    opacity: 0.8;
+    border-radius: 2em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.form1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#enviar {
+    margin-inline: 10em;
+}
+p {
+    font-size: 1.3em;
+}
