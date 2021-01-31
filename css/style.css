@@ -66,7 +66,6 @@ img:hover {
 
     height: 20em;
     width: 100%;
-  
 }
 
 #nombre {
@@ -76,7 +75,7 @@ img:hover {
     color: #1b180dee;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .contenedorArriba {
         height: 100%;
         border: none;
@@ -96,3 +95,4 @@ img:hover {
         margin-left: 2em;
     }
 }
+
